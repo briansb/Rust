@@ -1,0 +1,52 @@
+
+Welcome to Rust!
+
+This will download and install the official compiler for the Rust
+programming language, and its package manager, Cargo.
+
+It will add the cargo, rustc, rustup and other commands to
+Cargo's bin directory, located at:
+
+  C:\Users\user\.cargo\bin
+
+This can be modified with the CARGO_HOME environment variable.
+
+Rustup metadata and toolchains will be installed into the Rustup
+home directory, located at:
+
+  C:\Users\user\.rustup
+
+This can be modified with the RUSTUP_HOME environment variable.
+
+This path will then be added to your PATH environment variable by
+modifying the HKEY_CURRENT_USER/Environment/PATH registry key.
+
+You can uninstall at any time with rustup self uninstall and
+these changes will be reverted.
+
+Current installation options:
+
+
+   default host triple: x86_64-pc-windows-msvc
+     default toolchain: stable
+               profile: default
+  modify PATH variable: yes
+
+1) Proceed with installation (default)
+2) Customize installation
+3) Cancel installation
+>1
+
+info: profile set to 'default'
+info: default host triple is x86_64-pc-windows-msvc
+info: updating existing rustup installation
+
+
+Rust is installed now. Great!
+
+To get started you need Cargo's bin directory (%USERPROFILE%.cargo\bin) in your
+PATH
+environment variable. Future applications will automatically have the
+correct environment, but you may need to restart your current shell.
+
+Press the Enter key to continue.
