@@ -1,5 +1,0 @@
-$ rustc progname.rs
-
-rustc will produce a binary that can be executed.
-
-$ progname.exe
